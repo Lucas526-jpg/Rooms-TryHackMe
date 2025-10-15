@@ -93,18 +93,35 @@ Respuesta: Web shell
 
 ## COMANDO Y CONTROL
 
-La función de un pentester es comprobar la seguridad de los sistemas y el software de una empresa, lo que se consigue mediante intentos de descubrir fallos y vulnerabilidades a través de hacking sistematizado.  
-Responsabilidades:  
-1. Realizar pruebas en sistemas informáticos, redes y aplicaciones basadas en la web.
-2. Llevar a cabo evaluaciones de seguridad, auditorías y análisis de políticas.
-3. Evaluar e informar sobre los datos obtenidos, recomendando medidas para la prevención de ataques.
+Después de conseguir persistencia y ejecutar el malware en el equipo de la víctima, un ciberdelincuente abre el canal C2 (Comando y Control) a través del malware para controlar y manipular remotamente a la víctima. Este término también se conoce como C&C o C2 Beaconing, como un tipo de comunicación maliciosa entre un servidor C&C y el malware en el host infectado. El host infectado se comunicará constantemente con el servidor C2.
 
-## Red Team
-Los miembros del red team se encargan de poner a prueba las capacidades de detección y respuesta de la empresa.  
-Esta función requiere imitar las acciones de los ciberdelincuentes, emular ataques maliciosos, mantener el acceso y evitar ser detectados.  
-Responsabilidades:  
-1. Emular el papel de un agente malicioso para descubrir vulnerabilidades explotables, mantener el acceso y evitar la detección.
-2. Evaluar los controles de seguridad, la inteligencia sobre amenazas y los procedimientos de respuesta a incidentes de las organizaciones.
-3. Evaluar e informar sobre los conocimientos adquiridos, con datos procesables para que las empresas eviten casos reales.
+El punto final comprometido se comunicaría con un servidor externo configurado por un atacante para establecer un canal de comando y control. Después de establecer la conexión, el atacante tiene control total sobre la máquina de la víctima.
 
-## Al finalizar, podremos resolver un quiz que nos indicara que rol en ciberseguridad se adapta mas a nosotros.
+Los canales C2 más comunes utilizados por los adversarios hoy en día:
+
+- Los protocolos HTTP en el puerto 80 y HTTPS en el puerto 443: este tipo de baliza mezcla el tráfico malicioso con el tráfico legítimo y puede ayudar al atacante a evadir los cortafuegos.
+- DNS (servidor de nombres de dominio). La máquina infectada realiza solicitudes DNS constantes al servidor DNS que pertenece a un atacante. Este tipo de comunicación C2 también se conoce como túnel DNS.
+
+### Pregunta
+
+¿Qué es la comunicación C2 en la que la víctima realiza solicitudes DNS periódicas a un servidor DNS y un dominio que pertenecen a un atacante?
+
+Respuesta:DNS Tunneling
+
+## ACCIONES SOBRE LOS OBJETIVOS
+
+Después de pasar por seis fases del ataque, un ciberdelincuente finalmente puede alcanzar sus objetivos, lo que significa actuar sobre los objetivos originales. Con acceso práctico al teclado, el atacante puede lograr lo siguiente:
+
+- Recopilar las credenciales de los usuarios.
+- Realizar una escalada de privilegios (obtener acceso elevado, como el acceso de administrador de dominio desde una estación de trabajo, aprovechando la configuración incorrecta).
+- Reconocimiento interno (por ejemplo, un atacante interactúa con el software interno para encontrar sus vulnerabilidades).
+- Movimiento lateral a través del entorno de la empresa.
+- Recopilar y extraer datos confidenciales.
+- Eliminar las copias de seguridad y las instantáneas de sombra. Shadow Copy es una tecnología de Microsoft que permite crear copias de seguridad, instantáneas de archivos informáticos o volúmenes.
+- Sobrescribir o corromper datos.
+### Preguntas
+
+¿Puede proporcionar una tecnología incluida en Microsoft Windows que permita crear copias de seguridad o instantáneas de archivos o volúmenes en el ordenador, incluso cuando están en uso?
+
+Respuesta:Shadow Copy
+
