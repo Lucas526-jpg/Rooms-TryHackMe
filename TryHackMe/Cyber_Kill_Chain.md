@@ -2,12 +2,13 @@
 
 ## Introduccion
 
-Empezamos hablando del porque elegir ciberseguridad, sueldos elevados, aunque emocionante para algunos, un poco estresante tambien.  
-A continuacion tendremos un breve descripcion de cada de rol en la ciberseguridad.
+El término «cadena de destrucción» es un concepto militar relacionado con la estructura de un ataque. Consiste en la identificación del objetivo, la decisión y la orden de atacar el objetivo y, finalmente, la destrucción del objetivo.
 
-## Analistas de seguridad
+En esta sala exploraremos las siguientes fases del ataque:Reconocimiento,armamento,entrega,explotación,instalación,mando y control,acciones sobre los objetivos.
 
-Desarrollan medidas de seguridad en las organizaciones con el fin de proteger a la empresa de posibles ataques.
+## Reconocimiento
+
+El reconocimiento consiste en descubrir y recopilar información sobre el sistema y la víctima. La fase de reconocimiento es la fase de planificación para los adversarios.
 
 ## Ingeniero de seguridad
 
