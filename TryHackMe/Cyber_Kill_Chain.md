@@ -60,21 +60,38 @@ Estos son algunos ejemplos de cómo un atacante lleva a cabo la explotación:
 - Explotando vulnerabilidades de software, hardware o incluso humanas.
 - Un atacante activa el exploit para vulnerabilidades basadas en el servidor.
 
+Tras obtener acceso al sistema, el actor malicioso podía explotar vulnerabilidades del software, del sistema o del servidor para escalar privilegios o moverse lateralmente por la red.
+
 ### Pregunta
 
 ¿Puede proporcionar el nombre de un ciberataque dirigido a una vulnerabilidad de software desconocida para los proveedores de antivirus o software?
 
 Respuesta:Zero-day
 
-## Analista de malware
+## Instalacion
 
-Consiste en analizar programas sospechosos, descubrir qué hacen y redactar informes sobre sus hallazgos. A veces se denomina al analista de malware «ingeniero inverso», se deben tener solidos conocimientos en lenguajes de bajo nivel como c y ensamblador.  
-Responsabilidaes:  
-1. Realizar análisis estáticos de programas maliciosos, lo que implica ingeniería inversa.
-2. Realizar análisis dinámicos de muestras de malware observando sus actividades en un entorno controlado.
-3. Documentar y notificar todos los hallazgos.
+Una puerta trasera persistente permitirá al atacante acceder al sistema que comprometió en el pasado, ya que una vez que el atacante obtiene acceso al sistema, querrá volver a acceder al sistema si pierde la conexión con él, si es detectado y se le retira el acceso inicial, o si el sistema se actualiza posteriormente.
 
-## Pentester
+La persistencia se puede lograr a través de:
+
+- Instalación de un shell web en el servidor web: Un shell web es un script malicioso escrito en lenguajes de programación de desarrollo web como ASP, PHP o JSP que utiliza un atacante para mantener el acceso al sistema comprometido.
+- Instalación de una puerta trasera en el equipo de la víctima: Por ejemplo, el atacante puede utilizar Meterpreter para instalar una puerta trasera en el equipo de la víctima.
+- Creación o modificación de servicios de Windows:Un atacante puede crear o modificar los servicios de Windows para ejecutar scripts o cargas maliciosas de forma regular como parte de la persistencia, el atacante también puede enmascarar la carga maliciosa utilizando un nombre de servicio que se sabe que está relacionado con el sistema operativo o con software legítimo.
+- Añadiendo la entrada a las «claves de ejecución» para el payload malicioso en el Registro o en la carpeta de inicio. Al hacerlo, el payload se ejecutará cada vez que el usuario inicie sesión en el equipo.
+
+En esta fase, el atacante también puede utilizar la técnica Timestomping para evitar ser detectado por el investigador forense y también para hacer que el malware parezca parte de un programa legítimo. La técnica Timestomping permite al atacante modificar las marcas de tiempo del archivo, incluyendo las horas de modificación, acceso, creación y cambio.
+
+### Preguntas
+
+¿Puede indicar la técnica utilizada para modificar los atributos de tiempo de los archivos con el fin de ocultar los nuevos archivos o los cambios realizados en los archivos existentes?
+
+Respuesta:Timestomping
+
+¿Puede nombrar el script malicioso que un atacante instala en el servidor web para mantener el acceso al sistema comprometido y permitir el acceso remoto al servidor web?
+
+Respuesta: Web shell
+
+## COMANDO Y CONTROL
 
 La función de un pentester es comprobar la seguridad de los sistemas y el software de una empresa, lo que se consigue mediante intentos de descubrir fallos y vulnerabilidades a través de hacking sistematizado.  
 Responsabilidades:  
