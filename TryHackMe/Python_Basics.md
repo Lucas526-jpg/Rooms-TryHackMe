@@ -142,3 +142,37 @@ Ejemplo:
      print("Hello " + name + "! Nice to meet you.")`
 
 `sayHello("ben") # Output is: Hello ben! Nice to meet you`
+
+Una función también puede devolver un resultado, como se muestra en el bloque de código siguiente:
+
+`def calcCost(item):
+     if(item == "sweets"):
+          return 3.99
+     elif (item == "oranges"):
+          return 1.99
+     else:
+          return 0.99`
+
+`spent = 10
+spent = spent + calcCost("sweets")
+print("You have spent:" + str(spent))`
+
+## ARCHIVOS
+
+En Python, puedes leer y escribir desde archivos.
+
+`f = open("demofile1.txt", "a") # Añadir a un archivo existente
+f.write("El archivo incluirá más texto...")
+f.close()`
+
+`f = open("demofile2.txt", "w") # Crear y escribir en un nuevo archivo
+f.write("demofile2 ¡Archivo creado, con este contenido!")
+f.close()`
+
+## IMPORTACIONES
+
+En Python, podemos importar bibliotecas, que son una colección de archivos que contienen funciones.
+
+`import datetime
+current_time = datetime.datetime.now()
+print(current_time)`
