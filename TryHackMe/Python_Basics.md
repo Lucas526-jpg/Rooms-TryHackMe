@@ -93,7 +93,22 @@ Los operadores lógicos permiten realizar asignaciones y comparaciones, y se uti
 Los operadores booleanos se utilizan para conectar y comparar relaciones entre sentencias. Al igual que en una sentencia if, las condiciones pueden ser verdaderas o falsas.
 
 | Operación booleana | Operador | Ejemplo |
-| Ambas condiciones deben ser verdaderas para que la afirmación sea verdadera | AND | si x >= 5 AND x <= 100Devuelve TRUE si x es un número entre 5 y 100 |
-| Solo una condición de la afirmación tiene que ser verdadera | OR | si x == 1 OR x == 10Devuelve TRUE si X es 1 o 10 |
-| Si una condición es lo contrario de un argumento | NOT | si NOT y Devuelve TRUE si el valor de y es False |
+| :-- | :-- | :-- | 
+| Ambas condiciones deben ser verdaderas para que la afirmación sea verdadera | AND | si x >= 5 AND x <= 100 Devuelve TRUE si x es un número entre 5 y 100 |
+| Solo una condición de la afirmación tiene que ser verdadera | OR | si x == 1 OR x == 10 Devuelve TRUE si X es 1 o 10 |
+| Si una condición es lo contrario de un argumento | NOT | NOT Devuelve TRUE si el valor de y es False |
 
+## SENTENCIAS IF
+
+El uso de sentencias if permite a los programas tomar decisiones segun alguna condicion.
+
+Ejemplo de codigo: 
+
+`if age < 17:
+    print('No tienes la edad suficiente para conducir.')
+else:
+    print('Tienes la edad suficiente para conducir.')`
+
+## BUCLES O ITERACIONES
+
+En programación, los bucles permiten a los programas iterar y realizar acciones varias veces. Hay dos tipos de bucles: bucles for y bucles while.
