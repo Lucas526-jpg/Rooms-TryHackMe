@@ -29,11 +29,11 @@ Respuesta:**THM{PRINT_STATEMENTS}**
 
 ### operadores de comparación
 
-| Symbol	| Syntax |
+| Simbolo	| Sintaxis |
 | :-- | :-- | 
-| Greater than	| > |
-| Less than	| < |
-| Equal to	| == |
-| Not Equal to	| != |
-| Greater than or equal to	| >= |
-| Less than or equal	| <= |
+| Mayor que | > |
+| Menor que	| < |
+| Igual a | == |
+| Distinto a| != |
+| Mayor o igual que	| >= |
+| Menor o igual que	| <= |
