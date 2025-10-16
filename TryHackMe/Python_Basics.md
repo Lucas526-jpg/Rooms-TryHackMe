@@ -18,11 +18,22 @@ Respuesta:**THM{PRINT_STATEMENTS}**
 
 ## OPERACIONES MATEMATICAS
 
-| Operacion |	Sintaxsis	| Ejemplo |
+| Operacion |	Sintaxis	| Ejemplo |
 | :-- | :-- | :-- | 
-| Addition	| +	| 1 + 1 = 2 |
-| Subtraction	| -	| 5 - 1 = 4 |
-| Multiplication	| *	| 10 * 10 = 100 |
+| Suma	| +	| 1 + 1 = 2 |
+| Resta	| -	| 5 - 1 = 4 |
+| Producto	| *	| 10 * 10 = 100 |
 | Division	| /	| 10 / 2 = 5 |
-| Modulus	| %	| 10 % 2 = 0 |
-| Exponent	| **	| 5**2 = 25 (5´2) |
+| Modulo	| %	| 10 % 2 = 0 |
+| Potencia	| **	| 5**2 = 25 (5´2) |
+
+### operadores de comparación
+
+| Symbol	| Syntax |
+| :-- | :-- | 
+| Greater than	| > |
+| Less than	| < |
+| Equal to	| == |
+| Not Equal to	| != |
+| Greater than or equal to	| >= |
+| Less than or equal	| <= |
