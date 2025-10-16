@@ -15,8 +15,8 @@
 
 | Room | Dificultad | Conocimienos obtenidos | Acceso Directo (Writeup) |
 | :--- | :--- | :--- | :--- |
-| **Python Basics** | Fácil | ... | [Ver Solución Aquí](TryHackMe/Python_Basics.md) |
-| **Linux Fundamentals Part 1** | Fácil | ... | [Ver Solución Aquí](https://github.com/Lucas526-jpg/Rooms/blob/main/TryHackMe/Linux_Fundamentals_Part1.md) |
-| **Common Attacks** | Fácil | .. | [Ver Solución Aquí](TryHackMe/Common_Attacks.md) |
+| **Python Basics** | Fácil | Fundamentos basicos de python | [Ver Solución Aquí](TryHackMe/Python_Basics.md) |
+| **Linux Fundamentals Part 1** | Fácil | Fundamentos basicos de linux, un poco de historia | [Ver Solución Aquí](https://github.com/Lucas526-jpg/Rooms/blob/main/TryHackMe/Linux_Fundamentals_Part1.md) |
+| **Common Attacks** | Fácil | Tipos de ataques mas comunes en la ciberseguridad | [Ver Solución Aquí](TryHackMe/Common_Attacks.md) |
 | **What is Networking?** | Fácil | .. | [Ver Solución Aquí](TryHackMe/What_is_Networking?.md) |
 | **Network Services** | Fácil | ... | [Ver Solución Aquí](https://github.com/Lucas526-jpg/Rooms/blob/main/TryHackMe/Network_Services.md) |
