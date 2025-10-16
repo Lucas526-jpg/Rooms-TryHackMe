@@ -112,3 +112,33 @@ else:
 ## BUCLES O ITERACIONES
 
 En programación, los bucles permiten a los programas iterar y realizar acciones varias veces. Hay dos tipos de bucles: bucles for y bucles while.
+
+Bucle while:
+
+Podemos hacer que el bucle se ejecute indefinidamente o (de forma similar a una instrucción if) determinar cuántas veces debe ejecutarse el bucle en función de una condición.
+
+Ejemplo:
+
+`i = 1
+while i <= 10:
+     print(i)
+     i = i + 1`
+
+Un bucle for se utiliza para iterar sobre una secuencia, como una lista, es decir, un numero determinado de veces.
+
+Ejemplo:
+
+`websites = ["facebook.com", "google.com", "amazon.com"]
+for site in websites:
+     print(site)`
+
+## INTRODUCCION A FUNCIONES
+
+Una función es un bloque de código que se puede llamar en diferentes lugares del programa.
+
+Ejemplo: 
+
+`def sayHello(name):
+     print("Hello " + name + "! Nice to meet you.")`
+
+`sayHello("ben") # Output is: Hello ben! Nice to meet you`
