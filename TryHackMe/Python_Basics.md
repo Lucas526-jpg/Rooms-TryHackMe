@@ -27,16 +27,6 @@ Respuesta:**THM{PRINT_STATEMENTS}**
 | Modulo	| %	| 10 % 2 = 0 |
 | Potencia	| **	| 5**2 = 25 (5´2) |
 
-### operadores de comparación
-
-| Simbolo	| Sintaxis |
-| :-- | :-- | 
-| Mayor que | > |
-| Menor que	| < |
-| Igual a | == |
-| Distinto a| != |
-| Mayor o igual que	| >= |
-
 ### Preguntas
 
 En el editor de código, imprime el resultado de 21 + 43. ¿Cuál es la bandera?
@@ -87,3 +77,23 @@ En otra nueva línea, imprime el valor de height. ¿Cuál es la bandera que apar
 `print(height)`
 
 Bandera: **THM{VARIABL3S}**
+
+## OPERACIONES LOGICAS Y BOOLEANAS
+
+Los operadores lógicos permiten realizar asignaciones y comparaciones, y se utilizan en pruebas condicionales (como las sentencias if).
+
+| Simbolo	| Sintaxis |
+| :-- | :-- | 
+| Mayor que | > |
+| Menor que	| < |
+| Igual a | == |
+| Distinto a| != |
+| Mayor o igual que	| >= |
+
+Los operadores booleanos se utilizan para conectar y comparar relaciones entre sentencias. Al igual que en una sentencia if, las condiciones pueden ser verdaderas o falsas.
+
+| Operación booleana | Operador | Ejemplo |
+| Ambas condiciones deben ser verdaderas para que la afirmación sea verdadera | AND | si x >= 5 AND x <= 100Devuelve TRUE si x es un número entre 5 y 100 |
+| Solo una condición de la afirmación tiene que ser verdadera | OR | si x == 1 OR x == 10Devuelve TRUE si X es 1 o 10 |
+| Si una condición es lo contrario de un argumento | NOT | si NOT y Devuelve TRUE si el valor de y es False |
+
