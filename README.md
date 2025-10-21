@@ -8,8 +8,8 @@
 | :--- | :--- | :--- | :--- |
 | **Careers in Cyber** | Fácil | Conocer distintos roles profesionales. | [Ver Solución Aquí](TryHackMe/Careers_in_Cyber.md) |
 | **Security Principles** | Fácil | Triada Cia y modelos de seguridad. | [Ver Solución Aquí](TryHackMe/Security_Principles.md) |
-| **Gobernance & Regulation** | Fácil | Normativas y regulaciones en la ciberseguridad. | [Ver Solución Aquí](TryHackMe/Governance_%26_Regulation.md) |
 | **Cyber Kill Chain** | Fácil | Metodoloa de ataque de un ciberdelincuente | [Ver Solución Aquí](TryHackMe/Cyber_Kill_Chain.md) |
+<!--| **Gobernance & Regulation** | Fácil | Normativas y regulaciones en la ciberseguridad. | [Ver Solución Aquí](TryHackMe/Governance_%26_Regulation.md) | -->
 
 ### Fundamental skills
 
